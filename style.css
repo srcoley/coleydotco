@@ -524,6 +524,7 @@ nav #search_button:hover {
 	font-size: 24px;
 	line-height: 28px;
 	border-bottom: 1px dashed #dadada;
+	clear: both;
 }
 
 #main h3 {
@@ -531,6 +532,7 @@ nav #search_button:hover {
 	margin: 20px 22px 15px 22px;
 	font-size: 22px;
 	line-height: 24px;
+	clear: both;
 }
 
 #main p, #main pre, #main span.embed-youtube {
