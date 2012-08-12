@@ -16,7 +16,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--><html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
-		<title><?php the_title(); ?> | <?php bloginfo('name'); ?></title>
+		<title><?php if(!is_front_page()) { echo the_title() . " | "; } ?><?php bloginfo('name'); ?></title>
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
 
 		<link rel="icon" href="favicon.ico" />
