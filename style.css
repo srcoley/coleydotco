@@ -533,12 +533,12 @@ nav #search_button:hover {
 	line-height: 24px;
 }
 
-#main p, #main span.embed-youtube {
+#main p, #main pre, #main span.embed-youtube {
 	margin: 0px 22px 22px 22px;
 	clear: both;
 }
 
-#main div.left p, #main div.right p {
+#main div.left p, #main div.right p, #main div.left pre, #main div.right pre {
 	margin: 0 0 22px;
 }
 
@@ -547,13 +547,13 @@ nav #search_button:hover {
 }
 
 #main div.left {
-	width: 426px;
+	width: 426px !important;
 	float: left;
 	margin: 0 22px 0;
 }
 
 #main div.right {
-	width: 426px;
+	width: 426px !important;
 	float: right;
 	margin: 0 22px 0 0;
 }
