@@ -19,7 +19,7 @@
 		<title><?php if(!is_front_page()) { echo the_title() . " | "; } ?><?php bloginfo('name'); ?></title>
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
 
-		<link rel="icon" href="favicon.ico" />
+		<link rel="shortcut icon" href="<?php bloginfo('wpurl'); ?>/favicon.ico" />
 		<link rel="apple-touch-icon" href="apple-touch-icon-57x57.png" />
 		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
 		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
