@@ -542,6 +542,10 @@ nav #search_button:hover {
 	margin: 0 0 22px;
 }
 
+#main div.left h2, #main div.right h2, #main div.left h3, #main div.right h3 {
+	margin-left: 0px;
+}
+
 #main div.left {
 	width: 426px;
 	float: left;
@@ -583,6 +587,12 @@ section .syntaxhighlighter {
 	width: 918px !important;
 	padding-bottom: 10px;
 }
+
+section .right .syntaxhighlighter, section .right .syntaxhighlighter {
+	margin: 0px !important;
+	width: 426px !important;
+}
+	
 
 section .syntaxhighlighter .line {
 	padding-right: 0px !important;
