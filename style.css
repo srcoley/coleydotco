@@ -678,7 +678,8 @@ section .syntaxhighlighter .line {
 #main .gist {
 	max-width: 900px;
 	margin: 20px 0 20px 20px;
-	font-size: 16px;
+	font-size: 14px;
+	line-height: 16px;
 }
 
 #main input[type='text'], #main textarea {
