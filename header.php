@@ -24,6 +24,8 @@
 		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
 		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
 
+		<link rel="author" href="https://plus.google.com/106920754534287323693/posts" />
+
 		<link href='http://fonts.googleapis.com/css?family=Telex' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
