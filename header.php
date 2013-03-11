@@ -14,6 +14,7 @@
 <!--[if IE 8 ]><html <?php language_attributes(); ?> class="no-js ie ie8 lte8 lte9"><![endif]-->
 <!--[if IE 9 ]><html <?php language_attributes(); ?> class="no-js ie ie9 lte9"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
+<!-- METAL GEAR?! -->
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<title><?php if(!is_front_page()) { echo the_title() . " | "; } ?><?php bloginfo('name'); ?></title>
