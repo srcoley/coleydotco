@@ -3,8 +3,8 @@
 add_action( 'init', 'cpt' );
 
 function cpt() {
-	register_cpt_taxonomy();
-	register_cpt_project();
+	//register_cpt_taxonomy();
+	//register_cpt_project();
 }
 
 function register_cpt_project() {

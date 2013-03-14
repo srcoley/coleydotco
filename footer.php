@@ -6,7 +6,7 @@
 				<li><a href="http://github.com/srcoley">Github</a></li>
 				<li class="last"><a href="http://dknewmedia.com">DK New Media</a></li>
 			</ul>
-			<p>Copyright &copy; Stephen Coley 2012</p>
+			<p>Copyright &copy; Stephen Coley <?php echo date('Y'); ?></p>
 		</footer>
 		</div>
 		<div id="overlay"></div>
